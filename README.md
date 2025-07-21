@@ -182,69 +182,16 @@
   </footer>
 
   <!-- Five9 Web Chat Initialisation -->
-  <script>
-    F9.Chat.Wrapper.init({
-      cdn: 'prod-uk',
-      useBusinessHours: false,
-      languages: {
-        "enabled": false,
-        "backgroundColor": "#65758e"
-      },
-      l10n: {
-        "en": {
-          "messenger": {
-            "customText": {}
-          },
-          "systemMessages": {
-            "transferredToParticipant": "The chat has been transferred to {name}.",
-            "transferredToGroup": "That chat has been transferred to group {group}."
-          },
-          "captureFields": [
-            { "k": "name", "l": "Name", "p": "Enter your name..." },
-            { "k": "email", "l": "Email Address", "p": "Enter your email..." },
-            { "k": "Question", "l": "Question", "p": "What can we help you with today?" }
-          ]
-        }
-      },
-      prepopulatedFields: [
-        { "k": "campaign", "v": "Show me WebChat" }
-      ],
-      messenger: {
-        integrationId: "156d6683-1e30-4846-89e3-080d78c5ae63",
-        soundNotificationEnabled: true,
-        transcriptPrintingEnabled: false,
-        menuItems: {
-          imageUpload: true,
-          fileUpload: true,
-          shareLocation: true
-        },
-        embedded: false,
-        setViewportScale: false,
-        browserStorage: "sessionStorage",
-        browserLogLevel: {
-          info: true,
-          debug: true,
-          error: true
-        },
-        hideWidgetAfterBusinessHours: false,
-        openLinkInSameTab: false,
-        scheduleCallback: {
-          isCallbackEnabled: false,
-          requestCallbackList: "",
-          customConfirmationMessage: "We will call you as soon as we can at [PHONE]",
-          web2CampaignAPIHost: ""
-        },
-        fixedHeader: false,
-        displayStyle: "button",
-        customColors: {
-          brandColor: "65758e",
-          conversationColor: "4B5DFF",
-          actionColor: "4B5DFF"
-        },
-        carouselType: "default"
-      },
-      clearMessagesTimeout: 3
-    });
+<script>
+  F9.Chat.Wrapper.init({
+    cdn: 'prod-uk',
+    useBusinessHours: false,
+    languages: {"enabled":false,"backgroundColor":"#1a00ff"},
+    l10n: {"en":{"messenger":{"customText":{}},"systemMessages":{"transferredToParticipant":"The chat has been transferred to {name}.","transferredToGroup":"That chat has been transferred to group {group}."},"captureFields":[{"k":"name","l":"Name","p":"Enter your name..."},{"k":"email","l":"Email Address","p":"Enter your email..."},{"k":"Question","l":"Question","p":"What can we help you with today?"}]}},
+    prepopulatedFields: [{"k":"campaign","v":"Show me WebChat"}],
+    messenger: {"integrationId":"156d6683-1e30-4846-89e3-080d78c5ae63","soundNotificationEnabled":true,"transcriptPrintingEnabled":true,"menuItems":{"imageUpload":true,"fileUpload":true,"shareLocation":true},"embedded":false,"setViewportScale":false,"businessName":"Start a WebChat","businessIconUrl":"https://www.cos365.ie/wp-content/uploads/2022/02/comple-outsource-solutions-logo-2-253x94.png","browserStorage":"sessionStorage","browserLogLevel":{"info":true,"debug":true,"error":true},"hideWidgetAfterBusinessHours":false,"openLinkInSameTab":false,"scheduleCallback":{"isCallbackEnabled":false,"requestCallbackList":"","customConfirmationMessage":"We will call you as soon as we can at [PHONE]","web2CampaignAPIHost":""},"fixedHeader":false,"displayStyle":"button","buttonWidth":"65","buttonHeight":"65","customColors":{"brandColor":"1a00ff","conversationColor":"0033ff","actionColor":"f100ff"},"carouselType":"default"},
+    clearMessagesTimeout: 3
+  });
   </script>
 </body>
 </html>

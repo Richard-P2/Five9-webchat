@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -160,17 +159,14 @@
     <h2>Why Choose Le Teleco?</h2>
     <div class="feature-grid">
       <div class="feature">
-        <img src="[images/speed-icon.png](https://www.ispreview.co.uk/wp-content/uploads/2_speed_metre_broadband_and_mobile_UK-588x600.jpg)" alt="Speed icon" />
         <h3>Superfast Speeds</h3>
         <p>Enjoy up to 1Gbps download speeds across all our residential plans.</p>
       </div>
       <div class="feature">
-        <img src="images/support-icon.png" alt="Support icon" />
         <h3>24/7 Support</h3>
         <p>Our team is here day and night to help you with anything you need.</p>
       </div>
       <div class="feature">
-        <img src="images/router-icon.png" alt="Router icon" />
         <h3>Easy Setup</h3>
         <p>Plug-and-play routers make installation quick and effortless.</p>
       </div>

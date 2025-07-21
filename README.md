@@ -152,7 +152,7 @@
       <a href="#" class="cta-button">View Plans</a>
     </div>
     <div class="hero-image">
-      <img src="images/home-broadband.jpg" alt="People enjoying fast broadband" />
+      <img src="https://www.wessexinternet.com/media/o4ao5hsy/adobestock_323693724.jpeg?width=800&height=494&v=1d95b20d4ae8af0" alt="People enjoying fast broadband" />
     </div>
   </section>
 
@@ -160,7 +160,7 @@
     <h2>Why Choose Le Teleco?</h2>
     <div class="feature-grid">
       <div class="feature">
-        <img src="images/speed-icon.png" alt="Speed icon" />
+        <img src="[images/speed-icon.png](https://www.ispreview.co.uk/wp-content/uploads/2_speed_metre_broadband_and_mobile_UK-588x600.jpg)" alt="Speed icon" />
         <h3>Superfast Speeds</h3>
         <p>Enjoy up to 1Gbps download speeds across all our residential plans.</p>
       </div>
